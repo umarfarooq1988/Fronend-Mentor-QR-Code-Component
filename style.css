@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200&family=Black+Ops+One&family=Cabin&family=Caveat&family=Libre+Baskerville&family=Outfit:wght@800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: hsl(212, 45%, 89%);
+    font-family: 'outfit', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+
+.container {
+    max-width: 360px;
+    margin: 0 auto;
+}
+
+.qr-c img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.qr-c {
+    background-color: hsl(0, 0%, 100%);
+    padding: 18px;
+    border-radius: 20px;
+    text-align: center;
+    margin: 0 1em;
+}
+
+.text {
+    padding: 20px 10px;
+}
+
+.text h2 {
+    color: hsl(218, 44%, 22%);
+    padding: 15px;
+}
+
+.text p {
+    color: hsl(220, 15%, 55%);
+
+}
